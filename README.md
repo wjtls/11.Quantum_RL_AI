@@ -67,7 +67,7 @@
 - 양자 신경망의 불확정성으로 인해 양자 정책과 양자 상태 가치 함수가 멀리 벗어나는 것을 방지
 <br/><br/><br/><br/>
 
-## 수도 코드 (조효신 작성)
+## 수도 코드 
  ![image](https://github.com/wjtls/11.Quantum_RL_AI/assets/60399060/cc6f0f0c-7a56-4548-bec6-036ae4cab480)
 
 <br/><br/><br/><br/>
