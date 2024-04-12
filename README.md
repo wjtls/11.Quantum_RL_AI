@@ -70,6 +70,20 @@
 ## 수도 코드 (조효신 작성)
  ![image](https://github.com/wjtls/11.Quantum_RL_AI/assets/60399060/cc6f0f0c-7a56-4548-bec6-036ae4cab480)
 
+<br/><br/><br/><br/>
+
+## 결과
+ ![image](https://github.com/wjtls/11.Quantum_RL_AI/assets/60399060/887fc10e-95f6-4bbd-8c5d-d0de6f00e1ed)
+ 
+- 현 모델 QAPO의 0 - 150 스텝까지 학습 과정에서 포트폴리오 
+가치(PV), 보상 값(reward), 정책 오차(policy loss)와 상태 가치의 오차(val 
+ue loss)를 그래프로 나타냈으며 도식 7은 고전 신경망과 PPO 알고리즘 
+및 비동기 학습으로 구성된 Asynchronous PPO(APPO) 모델의 0 - 1050 
+스텝 학습 PV, reward, loss를 나타낸다. 도식 8은 QAPO의 백테스트 PV 
+와 진입 포지션 (매수: 빨강, 매도: 파랑)이며 도식 9는 APPO모델의 포트 
+폴리오 가치와 포지션
+
+
 
 
 
