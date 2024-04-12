@@ -13,7 +13,26 @@
 
 ## VQC 양자회로 <br/>
  ![image](https://github.com/wjtls/11.Quantum_RL_AI/assets/60399060/b3c0b0d6-3d47-4d2b-81d8-b04b0d3e5f3c)
-- 양자 회로는 양자 게이트의 시퀀스로 이루어진 회로를 의미하며 양자 게이트는 양자비트(qubit)의 상태를 변화시키는 연산
+- 양자 회로는 양자 게이트의 시퀀스로 이루어진 회로를 의미하며 양자 게이트는 양자비트(qubit)의 상태를 변화시키는 연산 
 - 양자 게이트는 일반적으로 유니타리 행렬로 표현되며, 주요한 양자 게이트로는 Pauil (X, Y, Z 게이트), Hadamard (중첩 H게이트), CNOT 게이트, RX, RY, RZ (회전 게이트) 등이 있다
+- En(x) 는 고전 입력 데이터를 양자 상태로 인코딩하여 양자 회로에 입력하기 위한 단계이며 Q 는 얽힘과 회전 게이트로 이루어진 변형 양자 회로 부분, 마지막 측정 단계에서는 다시 고전 값으로 출력
+<br/>
+ ![image](https://github.com/wjtls/11.Quantum_RL_AI/assets/60399060/2036466b-f87f-44cf-88a8-9527c81967a3)
+ 
+- VQC는 인코딩 계층, 변형 계층, 측정 계층으로 구분된다
+- 5큐비트에서 VQC 회로 예시이며, 큐비트 수는 사용자의 환경에 맞춰 입력 데이터의 차원 수와 같게 설정한다
+ ![image](https://github.com/wjtls/11.Quantum_RL_AI/assets/60399060/29a0e4a7-fd02-40ab-8f0f-e98fd0e1c021)
+ ![image](https://github.com/wjtls/11.Quantum_RL_AI/assets/60399060/cfa95ac7-0a5b-43c9-8258-b8d007db00c3)
 
+- VQC에서 N개의 큐비트 양자 상태 및 Ry, Rz 게이트 표현
+- a는 각상태가 발생할 확률 진폭, |i> 는 큐비트의 상태 , i는 큐비트를 구성하는 이진수
+
+  
 <br/><br/><br/><br/>
+
+
+## Quantum LSTM 
+  ![image](https://github.com/wjtls/11.Quantum_RL_AI/assets/60399060/1cc6f7f0-2ba3-442e-8857-358255a0cee6)
+- 양자회로의 셀을 VQC회로로 대체한다.
+- 
+ 
